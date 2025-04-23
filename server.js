@@ -5,7 +5,7 @@ const { MongoClient } = require('mongodb');
 
 const app = express();
 const PORT = 3000;
-const MONGO_URI = 'mongodb://localhost:27017';
+const MONGO_URI = 'mongodb+srv://admin:z-AHPR_.J_c-C5i@cluster0.tfbo3kn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
 const DB_NAME = 'pokemontcg';
 const COLLECTION_NAME = 'allcards';
 const BASE_URL = 'https://asia.pokemon-card.com/th/card-search/detail';
